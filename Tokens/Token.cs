@@ -4,7 +4,7 @@ namespace Tokens;
 /// </summary> <summary>
 /// 
 /// </summary>
-class Token
+public class Token
 {
     public string Lexeme{ get; init; }
     public int LineNumber{ get; init; }

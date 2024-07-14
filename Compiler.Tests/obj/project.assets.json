@@ -385,11 +385,24 @@
       "Compiler/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Tokens": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Compiler.dll": {}
         },
         "runtime": {
           "bin/placeholder/Compiler.dll": {}
+        }
+      },
+      "Tokens/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Tokens.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tokens.dll": {}
         }
       }
     }
@@ -989,6 +1002,11 @@
       "type": "project",
       "path": "../Compiler/Compiler.csproj",
       "msbuildProject": "../Compiler/Compiler.csproj"
+    },
+    "Tokens/1.0.0": {
+      "type": "project",
+      "path": "../Tokens/Tokens.csproj",
+      "msbuildProject": "../Tokens/Tokens.csproj"
     }
   },
   "projectFileDependencyGroups": {
