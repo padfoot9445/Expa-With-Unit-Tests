@@ -1,0 +1,6 @@
+var(...,) permanent modifier, if there is a permanent modifier then the value field becomes the default,
+it shouldn't matter in what order each nation's OnTimeSkip is called, and if it does matter its just undefined behavior
+Nation is just a namespace but with a OnTimeSkip hook
+Preparse arithmetic operators into a function call
+
+ultimately we want each function to be its own section of bytecode, with the location known at compile-time; and each class is stored at runtime as its own section defining its class code, methods, fields, and types therein - i.e. we will pass a flattened Tuple[Bytecode[], Class[], Constants[]] to the VM such that each Bytecode is a function and each Class is a runtime class definition
