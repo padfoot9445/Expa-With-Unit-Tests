@@ -1,5 +1,5 @@
 namespace Bytecode;
-record Constants
+public record Constants
 {
     public required List<uint> Value { get; set; }
     public uint[] Array => Value.ToArray();
