@@ -1,0 +1,2 @@
+namespace Compiler;
+record Pointer(){}
