@@ -1,8 +1,8 @@
 namespace Bytecode;
-public record Constants: IConstants
+public interface IConstants
 {
-    public required List<uint> Value { get; set; }
-    public uint[] AsArray => Value.ToArray();
+    public List<uint> Value { get; set; }
+    public uint[] AsArray{ get; }
     public static uint FirstBit => 0x80000000;
     public static uint ConstantPointer(uint value) => value | FirstBit;
 }

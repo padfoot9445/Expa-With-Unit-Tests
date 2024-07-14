@@ -9,4 +9,4 @@ namespace Bytecode;
 /// 
 /// </summary>
 /// <returns></returns>
-public record ClassSigniture(){}
+public record ClassSigniture(): IClassSigniture{}

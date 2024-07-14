@@ -1,0 +1,11 @@
+D:\coding\Expa\Expa-V4.2\Bytecode\bin\Debug\net8.0\Bytecode.deps.json
+D:\coding\Expa\Expa-V4.2\Bytecode\bin\Debug\net8.0\Bytecode.dll
+D:\coding\Expa\Expa-V4.2\Bytecode\bin\Debug\net8.0\Bytecode.pdb
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfoInputs.cache
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfo.cs
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.csproj.CoreCompileInputs.cache
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.dll
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\refint\Bytecode.dll
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.pdb
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\ref\Bytecode.dll
