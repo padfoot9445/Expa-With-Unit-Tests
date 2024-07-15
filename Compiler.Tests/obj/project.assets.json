@@ -382,10 +382,21 @@
           }
         }
       },
+      "Bytecode/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Bytecode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bytecode.dll": {}
+        }
+      },
       "Compiler/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Bytecode": "1.0.0",
           "Tokens": "1.0.0"
         },
         "compile": {
@@ -997,6 +1008,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Bytecode/1.0.0": {
+      "type": "project",
+      "path": "../Bytecode/Bytecode.csproj",
+      "msbuildProject": "../Bytecode/Bytecode.csproj"
     },
     "Compiler/1.0.0": {
       "type": "project",

@@ -7,7 +7,7 @@ public class BytecodeMetadataTest
 {
     private readonly Section section = new Section
     {
-        Value = [MallocChunk.AsUInt(), InsertAt.AsUInt(), 1, Constants.ConstantPointer(2)]
+        Value = [MallocChunk.AsUInt(), InsertAt.AsUInt(), 1, ConstantProvider.ConstantPointer(2)]
     };
     private Opcode InvalidOpcode = 0;
     private readonly Type TypeOfInvalidOpcodeException = typeof(InvalidOperationException);

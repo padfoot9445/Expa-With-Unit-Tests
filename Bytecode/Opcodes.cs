@@ -1,7 +1,7 @@
 namespace Bytecode;
 /// <summary>
 /// Enum of all opcodes
-/// int so we don't accidentally trip the constant flag
+/// This is int-backed so we don't accidentally trip the constant flag
 /// </summary>
 public enum Opcode: int
 {

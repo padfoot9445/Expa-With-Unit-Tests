@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tokens\Tokens.csproj" />
+    <ProjectReference Include="..\Bytecode\Bytecode.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

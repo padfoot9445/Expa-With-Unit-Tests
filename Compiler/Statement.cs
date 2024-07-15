@@ -1,5 +1,6 @@
 namespace Compiler;
 using Tokens;
+using Bytecode;
 class Statement
 {
     public Token[] Value { get; init; }
@@ -15,8 +16,8 @@ class Statement
     /// <summary>
     /// Parses the Statement into Bytecode which pushes the result of the Statement onto the stack.
     /// </summary>
-    /// <returns>A tuple of Bytecode and a bit to append onto the constants section</returns> 
-    public (Bytecode, uint[]) Parse()
+    /// <returns>A Chunk</returns> 
+    public Chunk Parse()
     {
         throw new NotImplementedException();
     }

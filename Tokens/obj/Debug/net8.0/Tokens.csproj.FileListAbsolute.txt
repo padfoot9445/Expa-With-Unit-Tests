@@ -1,0 +1,11 @@
+D:\coding\Expa\Expa-V4.2\Tokens\bin\Debug\net8.0\Tokens.deps.json
+D:\coding\Expa\Expa-V4.2\Tokens\bin\Debug\net8.0\Tokens.dll
+D:\coding\Expa\Expa-V4.2\Tokens\bin\Debug\net8.0\Tokens.pdb
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\Tokens.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\Tokens.AssemblyInfoInputs.cache
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\Tokens.AssemblyInfo.cs
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\Tokens.csproj.CoreCompileInputs.cache
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\Tokens.dll
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\refint\Tokens.dll
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\Tokens.pdb
+D:\coding\Expa\Expa-V4.2\Tokens\obj\Debug\net8.0\ref\Tokens.dll

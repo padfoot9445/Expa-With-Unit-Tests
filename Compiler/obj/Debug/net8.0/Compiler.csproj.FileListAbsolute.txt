@@ -1,0 +1,17 @@
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Compiler.deps.json
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Compiler.dll
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Compiler.pdb
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Bytecode.dll
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Tokens.dll
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Tokens.pdb
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\Bytecode.pdb
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.csproj.AssemblyReference.cache
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.AssemblyInfoInputs.cache
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.AssemblyInfo.cs
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.csproj.CoreCompileInputs.cache
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.csproj.CopyComplete
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.dll
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\refint\Compiler.dll
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.pdb
+D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\ref\Compiler.dll

@@ -1,0 +1,1089 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-07-14 16:13:12
+count workspace : d:\coding\Expa\Expa-V4.2
+total files : 332
+total code lines : 6393
+total comment lines : 119
+total blank lines : 194
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .sln|             46|              0|              0|   0.72|
+   |        .csproj|             82|              0|             22|    1.3|
+   |            .cs|            452|            119|             35|    7.1|
+   |         .cache|             99|              0|              3|    1.5|
+   |       .targets|             33|              0|              0|   0.52|
+   |         .props|             78|              0|              0|    1.2|
+   |          .json|           5284|              0|            133|     83|
+   |           .txt|            252|              0|              1|    3.9|
+   |  .CopyComplete|              0|              0|              0|    0.0|
+   |  .editorconfig|             65|              0|              0|    1.0|
+   |           .tmp|              2|              0|              0|  0.031|
+   -------------------------------------------------------------------------
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.deps.json, code is 430, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Bytecode.Tests, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.api.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.core.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.framework.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit_random_seed.tmp, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testhost.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testhost.exe, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\Bytecode.Tests.csproj, code is 19, comment is 0, blank is 5.
+Bytecode.Tests\BytecodeMetadataTests.cs, code is 94, comment is 0, blank is 3.
+Bytecode.Tests\ChunkTests.cs, code is 5, comment is 0, blank is 1.
+Bytecode.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.dgspec.json, code is 144, comment is 0, blank is 10.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.assets.cache, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.AssemblyReference.cache, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.FileListAbsolute.txt, code is 102, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.pdb, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\ref\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\refint\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\project.assets.json, code is 1075, comment is 0, blank is 19.
+Bytecode.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Bytecode\bin\Debug\net8.0\Bytecode.deps.json, code is 23, comment is 0, blank is 0.
+Bytecode\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode\Bytecode.csproj, code is 7, comment is 0, blank is 2.
+Bytecode\BytecodeMetadata.cs, code is 75, comment is 3, blank is 1.
+Bytecode\Chunk.cs, code is 18, comment is 10, blank is 0.
+Bytecode\Class.cs, code is 2, comment is 10, blank is 0.
+Bytecode\Constants.cs, code is 8, comment is 0, blank is 0.
+Bytecode\IChunk.cs, code is 9, comment is 11, blank is 0.
+Bytecode\IClassSigniture.cs, code is 2, comment is 0, blank is 0.
+Bytecode\IConstants.cs, code is 8, comment is 0, blank is 0.
+Bytecode\IOpcodeInfo.cs, code is 7, comment is 0, blank is 1.
+Bytecode\ISection.cs, code is 5, comment is 0, blank is 0.
+Bytecode\obj\Bytecode.csproj.nuget.dgspec.json, code is 63, comment is 0, blank is 5.
+Bytecode\obj\Bytecode.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Bytecode\obj\Bytecode.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.assets.cache, it is a binary file.
+Bytecode\obj\Debug\net8.0\Bytecode.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.csproj.FileListAbsolute.txt, code is 11, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode\obj\Debug\net8.0\Bytecode.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode\obj\Debug\net8.0\ref\Bytecode.dll, it is a binary file.
+Bytecode\obj\Debug\net8.0\refint\Bytecode.dll, it is a binary file.
+Bytecode\obj\project.assets.json, code is 69, comment is 0, blank is 5.
+Bytecode\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Bytecode\OpcodeInfo.cs, code is 25, comment is 5, blank is 1.
+Bytecode\Opcodes.cs, code is 21, comment is 13, blank is 1.
+Bytecode\Section.cs, code is 5, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.deps.json, code is 454, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Compiler.Tests, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.api.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.core.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.framework.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit_random_seed.tmp, code is 1, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testhost.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testhost.exe, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\Compiler.Tests.csproj, code is 19, comment is 0, blank is 5.
+Compiler.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.dgspec.json, code is 261, comment is 0, blank is 20.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.assets.cache, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.AssemblyReference.cache, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.FileListAbsolute.txt, code is 106, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.pdb, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\ref\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\refint\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\project.assets.json, code is 1109, comment is 0, blank is 19.
+Compiler.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Compiler\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Compiler\bin\Debug\net8.0\Compiler.deps.json, code is 47, comment is 0, blank is 0.
+Compiler\bin\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Compiler\Compiler.csproj, code is 11, comment is 0, blank is 3.
+Compiler\obj\Compiler.csproj.nuget.dgspec.json, code is 180, comment is 0, blank is 15.
+Compiler\obj\Compiler.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Compiler\obj\Compiler.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Compiler\obj\Debug\net8.0\Compiler.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.assets.cache, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.csproj.AssemblyReference.cache, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.csproj.FileListAbsolute.txt, code is 17, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler\obj\Debug\net8.0\ref\Compiler.dll, it is a binary file.
+Compiler\obj\Debug\net8.0\refint\Compiler.dll, it is a binary file.
+Compiler\obj\project.assets.json, code is 110, comment is 0, blank is 6.
+Compiler\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Compiler\Pointer.cs, code is 2, comment is 0, blank is 0.
+Compiler\Statement.cs, code is 20, comment is 4, blank is 0.
+Expa-V4.2.sln, code is 46, comment is 0, blank is 0.
+GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Ideas.txt, code is 5, comment is 0, blank is 1.
+Tokens.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Tokens.Tests\obj\project.assets.json, code is 1055, comment is 0, blank is 19.
+Tokens.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.dgspec.json, code is 85, comment is 0, blank is 5.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Tokens.Tests\Tokens.Tests.csproj, code is 19, comment is 0, blank is 5.
+Tokens.Tests\UnitTest1.cs, code is 13, comment is 0, blank is 2.
+Tokens\bin\Debug\net8.0\Tokens.deps.json, code is 23, comment is 0, blank is 0.
+Tokens\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Tokens\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Tokens\Class1.cs, code is 4, comment is 0, blank is 2.
+Tokens\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Tokens\obj\Debug\net8.0\ref\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\refint\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Tokens\obj\Debug\net8.0\Tokens.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.assets.cache, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.csproj.FileListAbsolute.txt, code is 11, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.pdb, it is a binary file.
+Tokens\obj\project.assets.json, code is 69, comment is 0, blank is 5.
+Tokens\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Tokens\obj\Tokens.csproj.nuget.dgspec.json, code is 63, comment is 0, blank is 5.
+Tokens\obj\Tokens.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Tokens\obj\Tokens.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Tokens\Token.cs, code is 13, comment is 5, blank is 0.
+Tokens\Tokens.csproj, code is 7, comment is 0, blank is 2.
+Tokens\TokenTypes.cs, code is 4, comment is 3, blank is 1.
+UnitTest1.cs, code is 13, comment is 0, blank is 2.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-07-15 01:11:17
+count workspace : d:\coding\Expa\Expa-V4.2
+total files : 338
+total code lines : 6590
+total comment lines : 202
+total blank lines : 203
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .cs|            649|            202|             44|    9.8|
+   |        .csproj|             82|              0|             22|    1.2|
+   |         .props|             78|              0|              0|    1.2|
+   |       .targets|             33|              0|              0|   0.50|
+   |          .json|           5284|              0|            133|     80|
+   |         .cache|             99|              0|              3|    1.5|
+   |  .editorconfig|             65|              0|              0|   0.99|
+   |           .txt|            252|              0|              1|    3.8|
+   |           .sln|             46|              0|              0|   0.70|
+   |  .CopyComplete|              0|              0|              0|    0.0|
+   |           .tmp|              2|              0|              0|  0.030|
+   -------------------------------------------------------------------------
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.deps.json, code is 430, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Bytecode.Tests, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.api.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.core.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.framework.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit_random_seed.tmp, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testhost.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testhost.exe, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\Bytecode.Tests.csproj, code is 19, comment is 0, blank is 5.
+Bytecode.Tests\BytecodeMetadataTests.cs, code is 94, comment is 0, blank is 3.
+Bytecode.Tests\ChunkTests.cs, code is 0, comment is 0, blank is 0.
+Bytecode.Tests\ClassSignitureMock.cs, code is 5, comment is 0, blank is 0.
+Bytecode.Tests\ConstantProviderTests.cs, code is 67, comment is 0, blank is 1.
+Bytecode.Tests\FunctionTests.cs, code is 57, comment is 1, blank is 2.
+Bytecode.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.dgspec.json, code is 144, comment is 0, blank is 10.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.assets.cache, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.AssemblyReference.cache, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.FileListAbsolute.txt, code is 102, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.pdb, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\ref\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\refint\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\project.assets.json, code is 1075, comment is 0, blank is 19.
+Bytecode.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Bytecode.Tests\SectionMock.cs, code is 11, comment is 0, blank is 1.
+Bytecode\bin\Debug\net8.0\Bytecode.deps.json, code is 23, comment is 0, blank is 0.
+Bytecode\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode\Bytecode.csproj, code is 7, comment is 0, blank is 2.
+Bytecode\BytecodeMetadata.cs, code is 75, comment is 3, blank is 1.
+Bytecode\Chunk.cs, code is 24, comment is 10, blank is 0.
+Bytecode\Class.cs, code is 5, comment is 10, blank is 0.
+Bytecode\Constants.cs, code is 24, comment is 10, blank is 3.
+Bytecode\Function.cs, code is 24, comment is 0, blank is 1.
+Bytecode\IChunk.cs, code is 9, comment is 12, blank is 0.
+Bytecode\IClassSigniture.cs, code is 5, comment is 0, blank is 1.
+Bytecode\IConstants.cs, code is 8, comment is 26, blank is 0.
+Bytecode\IFunction.cs, code is 10, comment is 45, blank is 1.
+Bytecode\IOpcodeInfo.cs, code is 7, comment is 0, blank is 1.
+Bytecode\ISection.cs, code is 5, comment is 0, blank is 0.
+Bytecode\obj\Bytecode.csproj.nuget.dgspec.json, code is 63, comment is 0, blank is 5.
+Bytecode\obj\Bytecode.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Bytecode\obj\Bytecode.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.assets.cache, it is a binary file.
+Bytecode\obj\Debug\net8.0\Bytecode.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.csproj.FileListAbsolute.txt, code is 11, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode\obj\Debug\net8.0\Bytecode.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode\obj\Debug\net8.0\ref\Bytecode.dll, it is a binary file.
+Bytecode\obj\Debug\net8.0\refint\Bytecode.dll, it is a binary file.
+Bytecode\obj\project.assets.json, code is 69, comment is 0, blank is 5.
+Bytecode\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Bytecode\OpcodeInfo.cs, code is 25, comment is 5, blank is 1.
+Bytecode\Opcodes.cs, code is 21, comment is 13, blank is 1.
+Bytecode\Section.cs, code is 5, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.deps.json, code is 454, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Compiler.Tests, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.api.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.core.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.framework.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit_random_seed.tmp, code is 1, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testhost.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testhost.exe, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\Compiler.Tests.csproj, code is 19, comment is 0, blank is 5.
+Compiler.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.dgspec.json, code is 261, comment is 0, blank is 20.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.assets.cache, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.AssemblyReference.cache, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.FileListAbsolute.txt, code is 106, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.pdb, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\ref\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\refint\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\project.assets.json, code is 1109, comment is 0, blank is 19.
+Compiler.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Compiler\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Compiler\bin\Debug\net8.0\Compiler.deps.json, code is 47, comment is 0, blank is 0.
+Compiler\bin\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Compiler\Compiler.csproj, code is 11, comment is 0, blank is 3.
+Compiler\obj\Compiler.csproj.nuget.dgspec.json, code is 180, comment is 0, blank is 15.
+Compiler\obj\Compiler.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Compiler\obj\Compiler.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Compiler\obj\Debug\net8.0\Compiler.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.assets.cache, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.csproj.AssemblyReference.cache, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.csproj.FileListAbsolute.txt, code is 17, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler\obj\Debug\net8.0\ref\Compiler.dll, it is a binary file.
+Compiler\obj\Debug\net8.0\refint\Compiler.dll, it is a binary file.
+Compiler\obj\project.assets.json, code is 110, comment is 0, blank is 6.
+Compiler\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Compiler\Pointer.cs, code is 2, comment is 0, blank is 0.
+Compiler\Statement.cs, code is 20, comment is 4, blank is 0.
+Expa-V4.2.sln, code is 46, comment is 0, blank is 0.
+GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Ideas.txt, code is 5, comment is 0, blank is 1.
+Tokens.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Tokens.Tests\obj\project.assets.json, code is 1055, comment is 0, blank is 19.
+Tokens.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.dgspec.json, code is 85, comment is 0, blank is 5.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Tokens.Tests\Tokens.Tests.csproj, code is 19, comment is 0, blank is 5.
+Tokens.Tests\UnitTest1.cs, code is 13, comment is 0, blank is 2.
+Tokens\bin\Debug\net8.0\Tokens.deps.json, code is 23, comment is 0, blank is 0.
+Tokens\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Tokens\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Tokens\Class1.cs, code is 4, comment is 0, blank is 2.
+Tokens\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Tokens\obj\Debug\net8.0\ref\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\refint\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Tokens\obj\Debug\net8.0\Tokens.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.assets.cache, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.csproj.FileListAbsolute.txt, code is 11, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.pdb, it is a binary file.
+Tokens\obj\project.assets.json, code is 69, comment is 0, blank is 5.
+Tokens\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Tokens\obj\Tokens.csproj.nuget.dgspec.json, code is 63, comment is 0, blank is 5.
+Tokens\obj\Tokens.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Tokens\obj\Tokens.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Tokens\Token.cs, code is 13, comment is 5, blank is 0.
+Tokens\Tokens.csproj, code is 7, comment is 0, blank is 2.
+Tokens\TokenTypes.cs, code is 4, comment is 3, blank is 1.
+UnitTest1.cs, code is 13, comment is 0, blank is 2.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-07-15 01:11:37
+count workspace : d:\coding\Expa\Expa-V4.2
+total files : 338
+total code lines : 6590
+total comment lines : 202
+total blank lines : 203
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .cs|            649|            202|             44|    9.8|
+   |       .targets|             33|              0|              0|   0.50|
+   |        .csproj|             82|              0|             22|    1.2|
+   |         .props|             78|              0|              0|    1.2|
+   |          .json|           5284|              0|            133|     80|
+   |         .cache|             99|              0|              3|    1.5|
+   |  .editorconfig|             65|              0|              0|   0.99|
+   |           .txt|            252|              0|              1|    3.8|
+   |           .sln|             46|              0|              0|   0.70|
+   |           .tmp|              2|              0|              0|  0.030|
+   |  .CopyComplete|              0|              0|              0|    0.0|
+   -------------------------------------------------------------------------
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.deps.json, code is 430, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Bytecode.Tests.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Bytecode.Tests, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.api.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.core.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.engine.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit.framework.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\nunit_random_seed.tmp, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testhost.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\testhost.exe, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Bytecode.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Bytecode.Tests\Bytecode.Tests.csproj, code is 19, comment is 0, blank is 5.
+Bytecode.Tests\BytecodeMetadataTests.cs, code is 94, comment is 0, blank is 3.
+Bytecode.Tests\ChunkTests.cs, code is 0, comment is 0, blank is 0.
+Bytecode.Tests\ClassSignitureMock.cs, code is 5, comment is 0, blank is 0.
+Bytecode.Tests\ConstantProviderTests.cs, code is 67, comment is 0, blank is 1.
+Bytecode.Tests\FunctionTests.cs, code is 57, comment is 1, blank is 2.
+Bytecode.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.dgspec.json, code is 144, comment is 0, blank is 10.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Bytecode.Tests\obj\Bytecode.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.assets.cache, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.AssemblyReference.cache, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.csproj.FileListAbsolute.txt, code is 102, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.pdb, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\ref\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\Debug\net8.0\refint\Bytecode.Tests.dll, it is a binary file.
+Bytecode.Tests\obj\project.assets.json, code is 1075, comment is 0, blank is 19.
+Bytecode.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Bytecode.Tests\SectionMock.cs, code is 11, comment is 0, blank is 1.
+Bytecode\bin\Debug\net8.0\Bytecode.deps.json, code is 23, comment is 0, blank is 0.
+Bytecode\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode\Bytecode.csproj, code is 7, comment is 0, blank is 2.
+Bytecode\BytecodeMetadata.cs, code is 75, comment is 3, blank is 1.
+Bytecode\Chunk.cs, code is 24, comment is 10, blank is 0.
+Bytecode\Class.cs, code is 5, comment is 10, blank is 0.
+Bytecode\Constants.cs, code is 24, comment is 10, blank is 3.
+Bytecode\Function.cs, code is 24, comment is 0, blank is 1.
+Bytecode\IChunk.cs, code is 9, comment is 12, blank is 0.
+Bytecode\IClassSigniture.cs, code is 5, comment is 0, blank is 1.
+Bytecode\IConstants.cs, code is 8, comment is 26, blank is 0.
+Bytecode\IFunction.cs, code is 10, comment is 45, blank is 1.
+Bytecode\IOpcodeInfo.cs, code is 7, comment is 0, blank is 1.
+Bytecode\ISection.cs, code is 5, comment is 0, blank is 0.
+Bytecode\obj\Bytecode.csproj.nuget.dgspec.json, code is 63, comment is 0, blank is 5.
+Bytecode\obj\Bytecode.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Bytecode\obj\Bytecode.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Bytecode\obj\Debug\net8.0\Bytecode.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.assets.cache, it is a binary file.
+Bytecode\obj\Debug\net8.0\Bytecode.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.csproj.FileListAbsolute.txt, code is 11, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.dll, it is a binary file.
+Bytecode\obj\Debug\net8.0\Bytecode.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Bytecode\obj\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Bytecode\obj\Debug\net8.0\ref\Bytecode.dll, it is a binary file.
+Bytecode\obj\Debug\net8.0\refint\Bytecode.dll, it is a binary file.
+Bytecode\obj\project.assets.json, code is 69, comment is 0, blank is 5.
+Bytecode\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Bytecode\OpcodeInfo.cs, code is 25, comment is 5, blank is 1.
+Bytecode\Opcodes.cs, code is 21, comment is 13, blank is 1.
+Bytecode\Section.cs, code is 5, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.deps.json, code is 454, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Compiler.Tests.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Compiler.Tests, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Newtonsoft.Json.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.api.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.core.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.engine.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit.framework.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\nunit_random_seed.tmp, code is 1, comment is 0, blank is 0.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testhost.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\testhost.exe, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll, it is a binary file.
+Compiler.Tests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll, it is a binary file.
+Compiler.Tests\Compiler.Tests.csproj, code is 19, comment is 0, blank is 5.
+Compiler.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.dgspec.json, code is 261, comment is 0, blank is 20.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Compiler.Tests\obj\Compiler.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.assets.cache, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.AssemblyReference.cache, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.csproj.FileListAbsolute.txt, code is 106, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.pdb, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\ref\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\Debug\net8.0\refint\Compiler.Tests.dll, it is a binary file.
+Compiler.Tests\obj\project.assets.json, code is 1109, comment is 0, blank is 19.
+Compiler.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Compiler\bin\Debug\net8.0\Bytecode.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Bytecode.pdb, it is a binary file.
+Compiler\bin\Debug\net8.0\Compiler.deps.json, code is 47, comment is 0, blank is 0.
+Compiler\bin\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Compiler\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Compiler\Compiler.csproj, code is 11, comment is 0, blank is 3.
+Compiler\obj\Compiler.csproj.nuget.dgspec.json, code is 180, comment is 0, blank is 15.
+Compiler\obj\Compiler.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Compiler\obj\Compiler.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Compiler\obj\Debug\net8.0\Compiler.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.assets.cache, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.csproj.AssemblyReference.cache, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.csproj.FileListAbsolute.txt, code is 17, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.dll, it is a binary file.
+Compiler\obj\Debug\net8.0\Compiler.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Compiler\obj\Debug\net8.0\Compiler.pdb, it is a binary file.
+Compiler\obj\Debug\net8.0\ref\Compiler.dll, it is a binary file.
+Compiler\obj\Debug\net8.0\refint\Compiler.dll, it is a binary file.
+Compiler\obj\project.assets.json, code is 110, comment is 0, blank is 6.
+Compiler\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Compiler\Pointer.cs, code is 2, comment is 0, blank is 0.
+Compiler\Statement.cs, code is 20, comment is 4, blank is 0.
+Expa-V4.2.sln, code is 46, comment is 0, blank is 0.
+GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Ideas.txt, code is 5, comment is 0, blank is 1.
+Tokens.Tests\GlobalUsings.cs, code is 1, comment is 0, blank is 0.
+Tokens.Tests\obj\project.assets.json, code is 1055, comment is 0, blank is 19.
+Tokens.Tests\obj\project.nuget.cache, code is 21, comment is 0, blank is 1.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.dgspec.json, code is 85, comment is 0, blank is 5.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Tokens.Tests\obj\Tokens.Tests.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Tokens.Tests\Tokens.Tests.csproj, code is 19, comment is 0, blank is 5.
+Tokens.Tests\UnitTest1.cs, code is 13, comment is 0, blank is 2.
+Tokens\bin\Debug\net8.0\Tokens.deps.json, code is 23, comment is 0, blank is 0.
+Tokens\bin\Debug\net8.0\Tokens.dll, it is a binary file.
+Tokens\bin\Debug\net8.0\Tokens.pdb, it is a binary file.
+Tokens\Class1.cs, code is 4, comment is 0, blank is 2.
+Tokens\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Tokens\obj\Debug\net8.0\ref\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\refint\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Tokens\obj\Debug\net8.0\Tokens.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.assets.cache, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.csproj.FileListAbsolute.txt, code is 11, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.dll, it is a binary file.
+Tokens\obj\Debug\net8.0\Tokens.GeneratedMSBuildEditorConfig.editorconfig, code is 13, comment is 0, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Tokens\obj\Debug\net8.0\Tokens.pdb, it is a binary file.
+Tokens\obj\project.assets.json, code is 69, comment is 0, blank is 5.
+Tokens\obj\project.nuget.cache, code is 8, comment is 0, blank is 0.
+Tokens\obj\Tokens.csproj.nuget.dgspec.json, code is 63, comment is 0, blank is 5.
+Tokens\obj\Tokens.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Tokens\obj\Tokens.csproj.nuget.g.targets, code is 2, comment is 0, blank is 0.
+Tokens\Token.cs, code is 13, comment is 5, blank is 0.
+Tokens\Tokens.csproj, code is 7, comment is 0, blank is 2.
+Tokens\TokenTypes.cs, code is 4, comment is 3, blank is 1.
+UnitTest1.cs, code is 13, comment is 0, blank is 2.
+===============================================================================
