@@ -1,0 +1,1 @@
+the namespace Bytecode contains all relevant classes and logic to represent, in object and near 1:1 form, serialized bytecode, and to transform that object representation into actual serialized bytecode.
