@@ -7,7 +7,7 @@ class FunctionTests
 {
     //TODO: Make setup and teardown methods
     delegate IFunction ConstructBlankFunction(ISection section);
-    private static ConstructBlankFunction CBF = (ISection section) => Function.New(null, [], [], section);
+    private static ConstructBlankFunction CBF = (ISection section) => FunctionProvider.New(null, [], [], section);
     [Test]
     public void New__Construct_Multiple_Instances__They_Have_Different_Pointers()
     {
@@ -44,7 +44,7 @@ class FunctionTests
         uint[] Pointers = new uint[5] { CBF(Sections[0]).FunctionPointer, CBF(Sections[1]).FunctionPointer, CBF(Sections[2]).FunctionPointer, CBF(Sections[3]).FunctionPointer, CBF(Sections[4]).FunctionPointer };
         foreach((uint pointer, ISection section) in Pointers.Zip(Sections, (x, y) => new Tuple<uint, ISection>(x, y)))
         {
-            Assert.That(((SectionMock)Function.GetFunctionsArray[pointer]).__debug_id, Is.EqualTo(((SectionMock)section).__debug_id));
+            Assert.That(((SectionMock)FunctionProvider.GetFunctionsArray[pointer]).__debug_id, Is.EqualTo(((SectionMock)section).__debug_id));
         }
         
     }
@@ -56,6 +56,6 @@ class FunctionTests
         {
             CBF(section);
         }
-        Assert.That(Function.GetFunctionsArray, Is.EquivalentTo(Sections));
+        Assert.That(FunctionProvider.GetFunctionsArray, Is.EquivalentTo(Sections));
     }
 }
