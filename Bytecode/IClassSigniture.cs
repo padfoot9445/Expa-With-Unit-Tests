@@ -24,6 +24,11 @@ public interface IClassSigniture
     /// <value></value>
     public IFunction[] NewFunctions{ get; }
     /// <summary>
+    /// Types of fields as defined or inherited in this class. Property fields should also be included.
+    /// </summary>
+    /// <value></value>
+    public IField[] NewFields{ get; }
+    /// <summary>
     /// Classes in ancestor tree. If Base -> A, Base -> B, A -> C, A -> D, C -> B, D -> B, A -> E, B -> E
     /// Such that
     /// A inherits from base;
