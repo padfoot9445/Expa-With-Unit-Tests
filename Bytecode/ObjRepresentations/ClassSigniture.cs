@@ -9,13 +9,21 @@ namespace Bytecode.ObjRepresentations;
 /// 
 /// </summary>
 /// <returns></returns>
-public record ClassSigniture() : IClassSigniture
+public record ClassSigniture : IClassSigniture
 {
-    public int ID => throw new NotImplementedException();
+    public ClassSigniture(int iD, IFunction[] newFunctions, IField[] newFields, IClassSigniture[][] ancestors)
+    {
+        ID = iD;
+        NewFunctions = newFunctions;
+        NewFields = newFields;
+        Ancestors = ancestors;
+    }
 
-    public IFunction[] NewFunctions => throw new NotImplementedException();
+    public int ID{ get; init; }
 
-    public IField[] NewFields => throw new NotImplementedException();
+    public IFunction[] NewFunctions{ get; init; }
 
-    public IClassSigniture[][] Ancestors => throw new NotImplementedException();
+    public IField[] NewFields{ get; init; }
+
+    public IClassSigniture[][] Ancestors{ get; init; }
 }
