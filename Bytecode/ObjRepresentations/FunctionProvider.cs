@@ -1,4 +1,5 @@
 namespace Bytecode.ObjRepresentations;
+using Bytecode.Serialized;
 public partial class FunctionProvider : IFunctionProvider
 {
     private static UniquePointerAndStorageProvider<ISection> BackingList = new();
