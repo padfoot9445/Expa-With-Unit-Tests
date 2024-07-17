@@ -1,4 +1,5 @@
-namespace Bytecode;
+namespace Bytecode.Serialized;
+using Bytecode.ObjRepresentations;
 /// <summary>
 /// A Chunk which ultimately could be passed to the VM, or concatenated with another chunk
 /// </summary>

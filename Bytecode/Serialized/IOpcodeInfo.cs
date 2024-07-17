@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.Serialized;
 public interface IOpcodeInfo
 {
     public Opcode Opcode{ get; init; }

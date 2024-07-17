@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.Serialized;
 /// <summary>
 /// Enum of all opcodes
 /// This is int-backed so we don't accidentally trip the constant flag

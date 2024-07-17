@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.Serialized;
 using static Opcode;
 using static BytecodeMetadata.NumberType;
 public static class BytecodeMetadata

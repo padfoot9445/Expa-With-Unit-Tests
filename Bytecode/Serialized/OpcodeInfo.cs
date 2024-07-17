@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.Serialized;
 /// <summary>
 /// the Information surrounding a particular Opcode. Opcode is the Opcode, ArgNo is the number of arguments, and ArgTypes is the type of the arguments. The arguments do not include arguments pushed to stack.
 /// </summary>
