@@ -5,7 +5,7 @@ public partial class FunctionProvider : IFunctionProvider
     ISection[] IFunctionProvider.GetFunctionsArray => GetFunctionsArray;
     public static ISection[] GetFunctionsArray => BackingList.Array;
     private static uint NextFunctionPointer = 0;
-    IFunction IFunctionProvider.New(Bytecode.IClassSigniture? ReturnType, Bytecode.IClassSigniture[] ArgTypes, uint[] InversedDefaultValues, Bytecode.ISection FunctionBody) => New(ReturnType, ArgTypes, InversedDefaultValues, FunctionBody);
+    IFunction IFunctionProvider.New(IClassSigniture? ReturnType, IClassSigniture[] ArgTypes, uint[] InversedDefaultValues, ISection FunctionBody) => New(ReturnType, ArgTypes, InversedDefaultValues, FunctionBody);
     public static IFunction New(IClassSigniture? ReturnType, IClassSigniture[] ArgTypes, uint[] InversedDefaultValues, ISection FunctionBody)
     {
         uint functionPointer = (uint)BackingList.Add(FunctionBody);
