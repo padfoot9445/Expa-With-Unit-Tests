@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// A component which provides functionality for storing stuff and providing unique pointers
 /// </summary>

@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// Records the class signature for any given class. This has sections for parent classes and interfaces, such that any function call is passed through this object and redirected to the apporopiate function pointer.
 /// For instance, where Class A and B have functions Foo and Bar, and class C overrides Bar, and defines F

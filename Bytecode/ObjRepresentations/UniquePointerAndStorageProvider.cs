@@ -1,5 +1,5 @@
 
-namespace Bytecode;
+namespace Bytecode.ObjRepresentations;
 public class UniquePointerAndStorageProvider<T> : IUniquePointerAndStorageProvider<T>
 {
     private List<T> BackingList = new();

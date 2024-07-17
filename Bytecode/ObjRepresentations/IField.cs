@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// A representation of a field within a class.
 /// </summary> <summary>

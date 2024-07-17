@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// A Function Provider which stores the Sections and allows creation of 
 /// </summary>

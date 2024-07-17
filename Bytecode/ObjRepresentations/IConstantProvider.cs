@@ -1,4 +1,4 @@
-namespace Bytecode;
+namespace Bytecode.ObjRepresentations;
 public interface IConstantProvider
 {
     /// <summary>
