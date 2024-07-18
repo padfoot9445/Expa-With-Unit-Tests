@@ -1,6 +1,5 @@
-using Bytecode;
-using Bytecode.Tests.Mocks;
-
+using Bytecode.ObjRepresentations;
+using Bytecode.Serialized;
 namespace Tests.Bytecode;
 [TestFixture] 
 class FunctionTests

@@ -1,5 +1,6 @@
 using System.Reflection;
-using Bytecode;
+using Bytecode.ObjRepresentations;
+using Bytecode.Serialized;
 namespace Tests.Bytecode;
 abstract class BaseUniquePointerAndStorageProviderTests<T>
 {

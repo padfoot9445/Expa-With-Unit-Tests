@@ -1,4 +1,5 @@
-using Bytecode;
+using Bytecode.ObjRepresentations;
+using Bytecode.Serialized;
 
 namespace Tests.Bytecode;
 class SectionMock : ISection

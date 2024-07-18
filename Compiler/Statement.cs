@@ -1,6 +1,7 @@
 namespace Compiler;
 using Tokens;
-using Bytecode;
+using Bytecode.ObjRepresentations;
+using Bytecode.Serialized;
 class Statement
 {
     public Token[] Value { get; init; }

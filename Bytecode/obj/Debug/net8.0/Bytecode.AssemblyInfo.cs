@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bytecode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38edf3be0f12e45c8ffe195487350cfe17b4f57d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+070ee5f13e7173fbec63966ed414d06962104db0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bytecode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bytecode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
