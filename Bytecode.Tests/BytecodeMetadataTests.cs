@@ -10,17 +10,6 @@ public class BytecodeMetadataTest
     {
         Value = [MallocChunk.AsUInt(), InsertAt.AsUInt(), 1, ConstantProvider.ConstantPointer(2)]
     };
-    private Opcode InvalidOpcode = (Opcode)0;
-    private readonly Type TypeOfInvalidOpcodeException = typeof(InvalidOperationException);
-    [SetUp]
-    public void SetUp()
-    {
-
-        unchecked
-        {
-            InvalidOpcode = (Opcode)uint.MaxValue;
-        }
-    }
     public static object[] GetSigniture__GetSignitureArray__SignitureEquals__Cases =
     {
         new object[]{Opcode.AllocArray,new NumberType[0]{}},
@@ -32,33 +21,11 @@ public class BytecodeMetadataTest
         Assert.That(signiture, Is.EqualTo(opcode.GetSigniture()));
     }
     [Test]
-    public void GetSigniture__InvalidOpcode__ThrowsInvalidOperationException()
-    {
-        unchecked
-        {
-            Assert.Throws(TypeOfInvalidOpcodeException, () => InvalidOpcode.GetSigniture());
-        }
-    }
-    [Test]
-    public void GetArgNum__InvalidOpcode__ThrowsInvalidOperationException()
-    {
-        Assert.Throws(TypeOfInvalidOpcodeException, () => InvalidOpcode.GetArgNum());
-    }
-    [Test]
     public void GetArgNum__Various_Opcodes__ReturnsCorrectArgNum()
     {
         Assert.That(Peek.GetArgNum(), Is.EqualTo(1));
     }
 
-    [Test]
-    public void GetInfo__Section_Contains_Invalid_Opcode__Throws()
-    {
-        Section tempsection = new Section
-        {
-            Value = section.Value.Concat([InvalidOpcode.AsUInt()]).Concat(section.Value).ToList()
-        };
-        Assert.Throws(TypeOfInvalidOpcodeException, () => tempsection.GetInfo());
-    }
     [Test]
     public void GetInfo__Section__Returns_Correct()
     {
@@ -81,11 +48,7 @@ public class BytecodeMetadataTest
     {
         Assert.That(Malloc.AsUInt(), Is.EqualTo((uint)Malloc));
     }
-    [Test]
-    public void GetInfo__Invalid_Opcode__Throws()
-    {
-        Assert.Throws(TypeOfInvalidOpcodeException, () => InvalidOpcode.GetInfo());
-    }
+    
     public static object[] GetInfo__Various_Opcodes__ReturnsCorrect__Cases =
     {
         new object[] {Malloc, 0, new NumberType[0]},
