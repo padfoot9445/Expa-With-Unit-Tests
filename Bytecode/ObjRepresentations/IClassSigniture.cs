@@ -1,3 +1,5 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// Records the class signature for any given class. This has sections for parent classes and interfaces, such that any function call is passed through this object and redirected to the apporopiate function pointer.
@@ -5,7 +7,7 @@ namespace Bytecode.ObjRepresentations;
 /// 
 /// </summary>
 /// <returns></returns>
-public interface IClassSigniture
+public interface IClassSigniture: ISerializableToBytecode
 {
     /// <summary>
     /// Class ID

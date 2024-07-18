@@ -1,3 +1,5 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// Records the class signature for any given class. This has sections for parent classes and interfaces, such that any function call is passed through this object and redirected to the apporopiate function pointer.
@@ -26,4 +28,9 @@ public record ClassSigniture : IClassSigniture
     public IField[] NewFields{ get; init; }
 
     public IClassSigniture[][] Ancestors{ get; init; }
+
+    public ISection Serialize()
+    {
+        throw new NotImplementedException();
+    }
 }

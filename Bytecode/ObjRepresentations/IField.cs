@@ -1,3 +1,5 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// A representation of a field within a class.
@@ -5,7 +7,7 @@ namespace Bytecode.ObjRepresentations;
 /// 
 /// </summary>
 // Should be implemented as a nested record within ClassSigniture
-public interface IField
+public interface IField: ISerializableToBytecode
 {
     /// <summary>
     /// The Type of the field

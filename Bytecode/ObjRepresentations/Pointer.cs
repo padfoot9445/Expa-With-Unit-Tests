@@ -1,3 +1,5 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// A more type-safe representation of a pointer in Expa
@@ -74,5 +76,15 @@ public record Pointer : IPointer
     public static IPointer TypePointer(int address)
     {
         return new Pointer(PointerType.Const, address);
+    }
+
+    ILengthOneSection ISingleWordSerializable.Serialize()
+    {
+        throw new NotImplementedException();
+    }
+
+    ISection ISerializableToBytecode.Serialize()
+    {
+        throw new NotImplementedException();
     }
 }

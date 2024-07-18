@@ -1,3 +1,5 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
 public partial class FunctionProvider
 {
@@ -13,6 +15,10 @@ public partial class FunctionProvider
             this.ArgTypes = at;
             this.InversedDefaultArgValuePointers = idavp;
             this.FunctionPointer = fp;
+        }
+        ISection ISerializableToBytecode.Serialize()
+        {
+            throw new NotImplementedException();
         }
     }
 }

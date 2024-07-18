@@ -1,9 +1,11 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
 /// <summary>
 /// A Function Signiture containing type, pointer, and  Argtypes
 /// This is after implicit arguments are added to the arguments list; i.e. instance variables and closures
 /// </summary>
-public interface IFunction
+public interface IFunction: ISerializableToBytecode
 {
     /// <summary>
     /// ClassSigniture of the return type

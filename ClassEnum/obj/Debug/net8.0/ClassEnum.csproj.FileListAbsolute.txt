@@ -1,0 +1,11 @@
+D:\coding\Expa\Expa-V4.2\ClassEnum\bin\Debug\net8.0\ClassEnum.deps.json
+D:\coding\Expa\Expa-V4.2\ClassEnum\bin\Debug\net8.0\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\ClassEnum\bin\Debug\net8.0\ClassEnum.pdb
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ClassEnum.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ClassEnum.AssemblyInfoInputs.cache
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ClassEnum.AssemblyInfo.cs
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ClassEnum.csproj.CoreCompileInputs.cache
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\refint\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ClassEnum.pdb
+D:\coding\Expa\Expa-V4.2\ClassEnum\obj\Debug\net8.0\ref\ClassEnum.dll

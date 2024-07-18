@@ -1,5 +1,7 @@
+using Bytecode.Serialized;
+
 namespace Bytecode.ObjRepresentations;
-public interface IPointer
+public interface IPointer: ISingleWordSerializable, IWord
 {
     public bool Const { get; init; }
     public bool Function { get; init; }
