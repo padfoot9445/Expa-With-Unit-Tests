@@ -20,11 +20,13 @@ public class ClassEnumBase<T> where T: INumber<T>, new()
     public T Value{ get; init; }
     public string Name{ get; init; }
     private readonly HashSet<string> used_names = new();
+    protected static readonly Dictionary<T, ClassEnumBase<T>> value_to_enum = new();
     protected ClassEnumBase(string Name)
     {
         //require unique names
         if(used_names.Contains(Name)){ throw new ArgumentException("Name for ClassEnum must be unique"); }
         this.Name = Name;
         this.Value = GetNext();
+        value_to_enum[Value] = this;
     }
 }
