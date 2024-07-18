@@ -1,5 +1,4 @@
-using System.Runtime.Serialization;
-
-interface IBytecode: ISerializable
+namespace Bytecode.Serialized;
+public interface IBytecode: ISerializableToBytecode
 {
 }

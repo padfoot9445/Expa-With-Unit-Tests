@@ -4,7 +4,7 @@ namespace Bytecode.Serialized;
 /// <summary>
 /// An Enumeration of all opcodes implemented in a normal class to support things such as interface implementation, methods, and more.
 /// </summary>
-public sealed class Opcode: ClassEnumBase<int>
+public sealed class Opcode: ClassEnumBase<int>, ISerializableToBytecode
 {
     
     private static readonly Dictionary<int, Opcode> value_to_enum = new();
@@ -12,6 +12,12 @@ public sealed class Opcode: ClassEnumBase<int>
     {
         value_to_enum[Value] = this;
     }
+
+    public uint[] Serialize()
+    {
+        throw new NotImplementedException();
+    }
+
     private Opcode(string Name): base(Name){ }
     public static explicit operator int(Opcode opcode) => opcode.Value;
     public static explicit operator Opcode(int to_be_opcode) => value_to_enum[to_be_opcode];

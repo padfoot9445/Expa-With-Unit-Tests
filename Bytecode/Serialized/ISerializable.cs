@@ -1,5 +1,5 @@
 namespace Bytecode.Serialized;
-interface ISerializable
+public interface ISerializableToBytecode
 {
     public uint[] Serialize();
 }
