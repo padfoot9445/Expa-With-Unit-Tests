@@ -20,7 +20,7 @@ public class ClassEnumBase<T> where T: INumber<T>, new()
     public T Value{ get; init; }
     public string Name{ get; init; }
     private readonly HashSet<string> used_names = new();
-    private protected ClassEnumBase(string Name)
+    protected ClassEnumBase(string Name)
     {
         //require unique names
         if(used_names.Contains(Name)){ throw new ArgumentException("Name for ClassEnum must be unique"); }
