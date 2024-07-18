@@ -10,13 +10,13 @@ public abstract class ClassEnumBase<T> where T: INumber<T>, new()
     /// </summary>
     private static T next_number = new();
     /// <summary>
-    /// Gets the next number and increments it after.
+    /// incrememnts next_number and returns.
     /// </summary>
     /// <returns>T, next-number</returns> <summary>
     /// 
     /// </summary>
     /// <returns></returns>
-    private static T GetNext() => next_number++;
+    private static T GetNext() => ++next_number;
     public T Value{ get; init; }
     public string Name{ get; init; }
     private readonly HashSet<string> used_names = new();
