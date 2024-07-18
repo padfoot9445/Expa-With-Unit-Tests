@@ -6,9 +6,9 @@ namespace Bytecode.Serialized;
 public class OpcodeInfo: IOpcodeInfo
 {
     public Opcode Opcode{ get; init; }
-    public BytecodeMetadata.NumberType[] ArgTypes{ get; }
+    public Opcode.NumberType[] ArgTypes{ get; }
     public int ArgNo{ get; }
-    public OpcodeInfo(Opcode opcode, int argNo, BytecodeMetadata.NumberType[] argTypes)
+    public OpcodeInfo(Opcode opcode, int argNo, Opcode.NumberType[] argTypes)
     {
         this.Opcode = opcode;
         this.ArgNo = argNo;

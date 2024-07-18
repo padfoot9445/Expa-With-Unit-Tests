@@ -4,7 +4,7 @@ namespace Bytecode.Serialized;
 /// <summary>
 /// An Enumeration of all opcodes implemented in a normal class to support things such as interface implementation, methods, and more.
 /// </summary>
-public sealed class Opcode: ClassEnumBase<int>, ISingleWordSerializable, IWord
+public sealed partial class Opcode: ClassEnumBase<int>, ISingleWordSerializable, IWord
 {
     
     private static readonly Dictionary<int, Opcode> value_to_enum = new();
@@ -12,6 +12,7 @@ public sealed class Opcode: ClassEnumBase<int>, ISingleWordSerializable, IWord
     {
         value_to_enum[Value] = this;
     }
+
 
     ILengthOneSection ISingleWordSerializable.Serialize()
     {

@@ -1,7 +1,7 @@
 namespace Bytecode.Serialized;
 using static Opcode;
-using static BytecodeMetadata.NumberType;
-public static class BytecodeMetadata
+using static Opcode.NumberType;
+public sealed partial class Opcode
 {
     public enum NumberType
     {
@@ -14,14 +14,14 @@ public static class BytecodeMetadata
         ClassCode,
         FunctionPtr
     }
-    public static NumberType[] GetSigniture(this Opcode opcode)
+    public NumberType[] GetSigniture()
     {
         #region Stack Operations
-        if (opcode == Push || opcode == Pop || opcode == Peek)
+        if (this == Push || this == Pop || this == Peek)
         {
             return [ Address ];
         }
-        else if (opcode == InsertAt || opcode == PopAt)
+        else if (this == InsertAt || this == PopAt)
         {
             return [ InlineConst, Address ];
         }
@@ -29,7 +29,7 @@ public static class BytecodeMetadata
 
         #region Memory Operations
         #region malloc
-        else if (opcode == Malloc || opcode == MallocChunk || opcode == AllocArray)
+        else if (this == Malloc || this == MallocChunk || this == AllocArray)
         {
             return [ ];
         }
@@ -37,7 +37,7 @@ public static class BytecodeMetadata
         #endregion
 
         #region Functions
-        else if (opcode == Call)
+        else if (this == Call)
         {
             return [ ClassCode, ClassCode ];
         }
@@ -45,40 +45,18 @@ public static class BytecodeMetadata
 
         else
         {
-            throw new InvalidOperationException($"Opcode {opcode} is not a supported opcode in the GetSignature function. This is likely a developer error.");
+            throw new InvalidOperationException($"Opcode {this.Name} is not a supported opcode in the GetSignature function. This is likely a developer error.");
         }
 
     }
-    public static int GetArgNum(this Opcode opcode)
+    public int GetArgNum()
     {
-        return opcode.GetSigniture().Length;
+        return GetSigniture().Length;
     }
-    public static int AsInt(this Opcode opcode) => (int)opcode;
-    public static uint AsUInt(this Opcode opcode) => (uint)opcode;
-    public static IOpcodeInfo[] GetInfo(this Section section)
+    public int AsInt() => (int)this;
+    public uint AsUInt() => (uint)this;
+    public IOpcodeInfo GetInfo()
     {
-        List<IOpcodeInfo?> info = [];
-        int args_remaining = 0;
-        for(int i = 0; i < section.Value.Count; i++)
-        {
-            if (args_remaining != 0)
-            {
-                info.Add(null);
-                args_remaining--;
-                Console.WriteLine($"Adding null in lieu of {section.Value[i]}");
-            }
-            else
-            {
-                Console.WriteLine($"Adding {section.Value[i]} as opcode");
-                IOpcodeInfo tinfo = ((Opcode)section.Value[i]).GetInfo();
-                info.Add(tinfo);
-                args_remaining += tinfo.ArgNo;
-            }
-        }
-        return [.. info];
-    }
-    public static IOpcodeInfo GetInfo(this Opcode opcode)
-    {
-        return new OpcodeInfo(opcode, opcode.GetArgNum(), opcode.GetSigniture());
+        return new OpcodeInfo(this, this.GetArgNum(), this.GetSigniture());
     }
 }
