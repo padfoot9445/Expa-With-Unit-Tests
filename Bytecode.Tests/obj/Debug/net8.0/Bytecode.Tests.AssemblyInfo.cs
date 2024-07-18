@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bytecode.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78e1ae9aea70d32568184b9776286eeee23030de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2ff6c12c02dd7e1c12b4982c2281abce2d1c81f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bytecode.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bytecode.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

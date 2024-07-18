@@ -9,4 +9,9 @@ class SectionMock : ISection
     {
         __debug_id = i;
     }
+
+    public IOpcodeInfo[] GetInfo()
+    {
+        throw new NotImplementedException();
+    }
 }

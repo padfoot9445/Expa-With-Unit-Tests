@@ -1,6 +1,5 @@
 using Bytecode.Serialized;
 using Bytecode.ObjRepresentations;
-using static Bytecode.Serialized.BytecodeMetadata;
 using static Bytecode.Serialized.Opcode;
 namespace Tests.Bytecode;
 [TestFixture]
