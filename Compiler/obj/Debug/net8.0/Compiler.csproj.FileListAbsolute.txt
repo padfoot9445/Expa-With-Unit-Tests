@@ -15,3 +15,5 @@ D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.dll
 D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\refint\Compiler.dll
 D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\Compiler.pdb
 D:\coding\Expa\Expa-V4.2\Compiler\obj\Debug\net8.0\ref\Compiler.dll
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\Compiler\bin\Debug\net8.0\ClassEnum.pdb

@@ -1,6 +1,5 @@
 namespace Compiler;
 using Tokens;
-using Bytecode.ObjRepresentations;
 using Bytecode.Serialized;
 class Statement
 {

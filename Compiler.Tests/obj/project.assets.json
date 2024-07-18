@@ -385,11 +385,24 @@
       "Bytecode/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ClassEnum": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Bytecode.dll": {}
         },
         "runtime": {
           "bin/placeholder/Bytecode.dll": {}
+        }
+      },
+      "ClassEnum/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClassEnum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassEnum.dll": {}
         }
       },
       "Compiler/1.0.0": {
@@ -1013,6 +1026,11 @@
       "type": "project",
       "path": "../Bytecode/Bytecode.csproj",
       "msbuildProject": "../Bytecode/Bytecode.csproj"
+    },
+    "ClassEnum/1.0.0": {
+      "type": "project",
+      "path": "../ClassEnum/ClassEnum.csproj",
+      "msbuildProject": "../ClassEnum/ClassEnum.csproj"
     },
     "Compiler/1.0.0": {
       "type": "project",

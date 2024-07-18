@@ -16,8 +16,16 @@
         }
       },
       "Bytecode/1.0.0": {
+        "dependencies": {
+          "ClassEnum": "1.0.0"
+        },
         "runtime": {
           "Bytecode.dll": {}
+        }
+      },
+      "ClassEnum/1.0.0": {
+        "runtime": {
+          "ClassEnum.dll": {}
         }
       },
       "Tokens/1.0.0": {
@@ -34,6 +42,11 @@
       "sha512": ""
     },
     "Bytecode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassEnum/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

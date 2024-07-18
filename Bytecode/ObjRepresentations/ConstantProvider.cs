@@ -1,7 +1,5 @@
 
 namespace Bytecode.ObjRepresentations;
-using Bytecode.ObjRepresentations;
-using Bytecode.Serialized;
 public class ConstantProvider : IConstantProvider
 {
     private static IUniquePointerAndStorageProvider<uint> StorageProvider = new UniquePointerAndStorageProvider<uint>();

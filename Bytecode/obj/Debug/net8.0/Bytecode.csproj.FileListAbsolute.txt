@@ -9,3 +9,7 @@ D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.dll
 D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\refint\Bytecode.dll
 D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.pdb
 D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\ref\Bytecode.dll
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.csproj.AssemblyReference.cache
+D:\coding\Expa\Expa-V4.2\Bytecode\bin\Debug\net8.0\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\Bytecode\bin\Debug\net8.0\ClassEnum.pdb
+D:\coding\Expa\Expa-V4.2\Bytecode\obj\Debug\net8.0\Bytecode.csproj.CopyComplete

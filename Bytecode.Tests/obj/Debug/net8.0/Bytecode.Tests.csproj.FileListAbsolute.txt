@@ -100,3 +100,5 @@ D:\coding\Expa\Expa-V4.2\Bytecode.Tests\obj\Debug\net8.0\refint\Bytecode.Tests.d
 D:\coding\Expa\Expa-V4.2\Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.pdb
 D:\coding\Expa\Expa-V4.2\Bytecode.Tests\obj\Debug\net8.0\Bytecode.Tests.genruntimeconfig.cache
 D:\coding\Expa\Expa-V4.2\Bytecode.Tests\obj\Debug\net8.0\ref\Bytecode.Tests.dll
+D:\coding\Expa\Expa-V4.2\Bytecode.Tests\bin\Debug\net8.0\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\Bytecode.Tests\bin\Debug\net8.0\ClassEnum.pdb

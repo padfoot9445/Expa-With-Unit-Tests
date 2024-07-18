@@ -16,33 +16,38 @@ public static class BytecodeMetadata
     }
     public static NumberType[] GetSigniture(this Opcode opcode)
     {
-        switch(opcode)
+        #region Stack Operations
+        if (opcode == Push || opcode == Pop || opcode == Peek)
         {
-            #region Stack Operations
-            case Push:
-            case Pop:
-            case Peek:
-                return [Address];
-            case InsertAt:
-            case PopAt:
-                return [InlineConst, Address];
-            #endregion
-            #region Memory Operations
-            #region malloc
-            case Malloc:
-            case MallocChunk:
-            case AllocArray:
-                return [];
-            #endregion
-            #endregion
-            #region Functions
-            case Call:
-                return [ClassCode, ClassCode];
-            #endregion
-            default:
-                throw new InvalidOperationException($"Opcode {opcode} is not a supported opcode in the GetSigniture function. This is likely a developer error.");
-
+            return [ Address ];
         }
+        else if (opcode == InsertAt || opcode == PopAt)
+        {
+            return [ InlineConst, Address ];
+        }
+        #endregion
+
+        #region Memory Operations
+        #region malloc
+        else if (opcode == Malloc || opcode == MallocChunk || opcode == AllocArray)
+        {
+            return [ ];
+        }
+        #endregion
+        #endregion
+
+        #region Functions
+        else if (opcode == Call)
+        {
+            return [ ClassCode, ClassCode ];
+        }
+        #endregion
+
+        else
+        {
+            throw new InvalidOperationException($"Opcode {opcode} is not a supported opcode in the GetSignature function. This is likely a developer error.");
+        }
+
     }
     public static int GetArgNum(this Opcode opcode)
     {

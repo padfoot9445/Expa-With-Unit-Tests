@@ -1,4 +1,3 @@
-using Bytecode.ObjRepresentations;
 using Bytecode.Serialized;
 
 namespace Tests.Bytecode;

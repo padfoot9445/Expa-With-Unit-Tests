@@ -104,3 +104,5 @@ D:\coding\Expa\Expa-V4.2\Compiler.Tests\obj\Debug\net8.0\refint\Compiler.Tests.d
 D:\coding\Expa\Expa-V4.2\Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.pdb
 D:\coding\Expa\Expa-V4.2\Compiler.Tests\obj\Debug\net8.0\Compiler.Tests.genruntimeconfig.cache
 D:\coding\Expa\Expa-V4.2\Compiler.Tests\obj\Debug\net8.0\ref\Compiler.Tests.dll
+D:\coding\Expa\Expa-V4.2\Compiler.Tests\bin\Debug\net8.0\ClassEnum.dll
+D:\coding\Expa\Expa-V4.2\Compiler.Tests\bin\Debug\net8.0\ClassEnum.pdb
