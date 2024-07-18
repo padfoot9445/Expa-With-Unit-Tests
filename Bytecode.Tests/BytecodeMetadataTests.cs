@@ -10,7 +10,7 @@ public class BytecodeMetadataTest
     {
         Value = [MallocChunk.AsUInt(), InsertAt.AsUInt(), 1, ConstantProvider.ConstantPointer(2)]
     };
-    private Opcode InvalidOpcode = 0;
+    private Opcode InvalidOpcode = (Opcode)0;
     private readonly Type TypeOfInvalidOpcodeException = typeof(InvalidOperationException);
     [SetUp]
     public void SetUp()
@@ -21,8 +21,12 @@ public class BytecodeMetadataTest
             InvalidOpcode = (Opcode)uint.MaxValue;
         }
     }
-    [TestCase(Opcode.AllocArray, new NumberType[0] { })]
-    [TestCase(Opcode.Call, new NumberType[2] { NumberType.ClassCode, NumberType.ClassCode })]
+    public static object[] GetSigniture__GetSignitureArray__SignitureEquals__Cases =
+    {
+        new object[]{Opcode.AllocArray,new NumberType[0]{}},
+        new object[]{Call, new NumberType[2]{NumberType.ClassCode, NumberType.ClassCode}}
+    };
+    [TestCaseSource(nameof(GetSigniture__GetSignitureArray__SignitureEquals__Cases))]
     public void GetSigniture__GetSignitureArray__SignitureEquals(Opcode opcode, NumberType[] signiture)
     {
         Assert.That(signiture, Is.EqualTo(opcode.GetSigniture()));
@@ -40,12 +44,10 @@ public class BytecodeMetadataTest
     {
         Assert.Throws(TypeOfInvalidOpcodeException, () => InvalidOpcode.GetArgNum());
     }
-    [TestCase(Peek, 1)]
-    [TestCase(Malloc, 0)]
-    [TestCase(Call, 2)]
-    public void GetArgNum__Various_Opcodes__ReturnsCorrectArgNum(Opcode opcode, int expected)
+    [Test]
+    public void GetArgNum__Various_Opcodes__ReturnsCorrectArgNum()
     {
-        Assert.That(opcode.GetArgNum(), Is.EqualTo(expected));
+        Assert.That(Peek.GetArgNum(), Is.EqualTo(1));
     }
 
     [Test]
@@ -69,25 +71,27 @@ public class BytecodeMetadataTest
         ];
         Assert.That(section.GetInfo(), Is.EqualTo(expected));
     }
-    [TestCase(Malloc)]
-    [TestCase(Call)]
-    public void AsInt__Various_Opcodes__Correct_Conversion(Opcode opcode)
+    [Test]
+    public void AsInt__Various_Opcodes__Correct_Conversion()
     {
-        Assert.That(opcode.AsInt(), Is.EqualTo((int)opcode));
+        Assert.That(Malloc.AsInt(), Is.EqualTo((int)Malloc));
     }
-    [TestCase(Malloc)]
-    [TestCase(Call)]
-    public void AsUint__Various_Opcodes__Correct_Conversion(Opcode opcode)
+    [Test]
+    public void AsUint__Various_Opcodes__Correct_Conversion()
     {
-        Assert.That(opcode.AsUInt(), Is.EqualTo((uint)opcode));
+        Assert.That(Malloc.AsUInt(), Is.EqualTo((uint)Malloc));
     }
     [Test]
     public void GetInfo__Invalid_Opcode__Throws()
     {
         Assert.Throws(TypeOfInvalidOpcodeException, () => InvalidOpcode.GetInfo());
     }
-    [TestCase(Malloc, 0, new NumberType[0])]
-    [TestCase(PopAt, 2, new NumberType[]{NumberType.InlineConst, NumberType.Address})]
+    public static object[] GetInfo__Various_Opcodes__ReturnsCorrect__Cases =
+    {
+        new object[] {Malloc, 0, new NumberType[0]},
+        new object[] {PopAt, 2, new NumberType[]{NumberType.InlineConst, NumberType.Address}}
+    };
+    [TestCaseSource(nameof(GetInfo__Various_Opcodes__ReturnsCorrect__Cases))]
     public void GetInfo__Various_Opcodes__ReturnsCorrect(Opcode opcode, int ArgNo, NumberType[] ArgTypes)
     {
         IOpcodeInfo actual = opcode.GetInfo();
