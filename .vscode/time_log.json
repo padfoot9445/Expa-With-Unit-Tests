@@ -23334,6 +23334,174 @@
           "email": "yipy214@gmail.com"
         },
         "timeSpent": 54
+      },
+      {
+        "date": "2024-07-18T23:43:16.064Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 0
+      },
+      {
+        "date": "2024-07-18T23:44:03.910Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 48
+      },
+      {
+        "date": "2024-07-19T00:11:22.161Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 1637
+      },
+      {
+        "date": "2024-07-19T00:11:25.602Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 4
+      },
+      {
+        "date": "2024-07-19T00:12:31.557Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 66
+      },
+      {
+        "date": "2024-07-19T00:13:20.359Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 49
+      },
+      {
+        "date": "2024-07-19T00:13:24.023Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 4
+      },
+      {
+        "date": "2024-07-19T00:13:31.570Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 8
+      },
+      {
+        "date": "2024-07-19T00:13:49.064Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 17
+      },
+      {
+        "date": "2024-07-19T00:13:50.417Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 2
+      },
+      {
+        "date": "2024-07-19T00:14:00.827Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 10
+      },
+      {
+        "date": "2024-07-19T20:43:27.412Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 1
+      },
+      {
+        "date": "2024-07-19T20:43:27.493Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 1
+      },
+      {
+        "date": "2024-07-19T20:43:42.680Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 14
+      },
+      {
+        "date": "2024-07-19T20:43:42.794Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 15
+      },
+      {
+        "date": "2024-07-19T20:43:43.324Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 15
+      },
+      {
+        "date": "2024-07-19T20:43:43.484Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 14
+      },
+      {
+        "date": "2024-07-19T20:43:44.907Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 17
+      },
+      {
+        "date": "2024-07-19T20:43:50.784Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 6
+      },
+      {
+        "date": "2024-07-19T20:43:51.727Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 8
+      },
+      {
+        "date": "2024-07-19T20:43:54.641Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 3
       }
     ],
     "ClassEnum\\ClassEnumBase.cs.git": [
@@ -23774,6 +23942,86 @@
           "email": "yipy214@gmail.com"
         },
         "timeSpent": 27
+      },
+      {
+        "date": "2024-07-18T23:11:58.132Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 10
+      },
+      {
+        "date": "2024-07-18T23:13:04.424Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 66
+      },
+      {
+        "date": "2024-07-18T23:14:23.807Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 79
+      },
+      {
+        "date": "2024-07-18T23:15:51.983Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 0
+      },
+      {
+        "date": "2024-07-18T23:30:02.073Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 65
+      },
+      {
+        "date": "2024-07-18T23:31:13.210Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 70
+      },
+      {
+        "date": "2024-07-18T23:34:25.691Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 193
+      },
+      {
+        "date": "2024-07-18T23:35:54.991Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 42
+      },
+      {
+        "date": "2024-07-18T23:36:42.543Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 48
+      },
+      {
+        "date": "2024-07-18T23:42:48.936Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 366
       }
     ],
     "Bytecode\\Serialized\\ISerializable.cs": [
@@ -24202,6 +24450,74 @@
           "email": "yipy214@gmail.com"
         },
         "timeSpent": 172
+      },
+      {
+        "date": "2024-07-18T21:53:49.343Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 722
+      },
+      {
+        "date": "2024-07-18T21:54:59.102Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 70
+      },
+      {
+        "date": "2024-07-18T22:21:15.526Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 1576
+      },
+      {
+        "date": "2024-07-18T22:21:20.430Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 5
+      },
+      {
+        "date": "2024-07-18T22:22:28.863Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 68
+      },
+      {
+        "date": "2024-07-18T23:10:24.624Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 2875
+      }
+    ],
+    "Section.cs": [
+      {
+        "date": "2024-07-18T23:19:03.839Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 2
+      }
+    ],
+    "Bytecode\\Serialized\\BytecodeMetadata.cs": [
+      {
+        "date": "2024-07-18T23:19:05.596Z",
+        "user": {
+          "name": "",
+          "email": "yipy214@gmail.com"
+        },
+        "timeSpent": 1
       }
     ]
   }
